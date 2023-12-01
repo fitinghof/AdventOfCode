@@ -1,0 +1,3 @@
+﻿  Funcs.cpp
+C:\Users\Simon\Documents\CodeRepos\cp+\AdventOfCode\CalibrationD1P2\CalibrationD1P2\Funcs.cpp(36,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CalibrationD1P2.vcxproj -> C:\Users\Simon\Documents\CodeRepos\cp+\AdventOfCode\CalibrationD1P2\x64\Debug\CalibrationD1P2.exe
