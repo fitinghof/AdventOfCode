@@ -1,8 +1,8 @@
 #include "Funcs.hpp"
 
 int getCalibration(std::string line) {
-	int firstNum;
-	int secondNum;
+	int firstNum = 0;
+	int secondNum = 0;
 
 	std::string numbers[9]{ "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
@@ -31,12 +31,11 @@ int getCalibration(std::string line) {
 		}
 		if (numFound) break;
 	}
-	for (int i = line.size()-1; i >= 0; i--) {
+	for (int i = line.size() - 1; i >= 0; i--) {
 		if (line[i] >= '0' && line[i] <= '9') {
 			secondNum = line[i] - '0';
 			break;
 		}
-
 		bool numFound = false;
 		for (int k = 0; k < 9; k++) {
 			if (i - numbers[k].size() > 0) {
